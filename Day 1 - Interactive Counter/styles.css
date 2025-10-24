@@ -1,0 +1,67 @@
+/*=============================================================
+  Styles for the entire application
+  ==========================================================*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  #number {
+    font-size: 48px;
+    margin: 5%;
+    color: #333;
+    text-align: center;
+    padding: 100px;
+    border: 2px solid black;
+    transition: font-size 0.2s ease; 
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  #increment, #decrement, #reset {
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #35424a;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+
+#increment:hover, #decrement:hover, #reset:hover {
+    background-color: #1f2a30;
+}
+#increment:active, #decrement:active, #reset:active {
+    background-color: #376881;
+}
+
+ footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
