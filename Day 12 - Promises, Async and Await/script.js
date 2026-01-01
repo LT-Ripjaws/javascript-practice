@@ -212,3 +212,5 @@ async function processSequential() {
 }
 
 // Each await waits for the previous one.
+
+// good video for more info fast - https://www.youtube.com/watch?v=H9nFFE5_VS4
